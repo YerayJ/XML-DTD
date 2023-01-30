@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tienda (disfraces, complemento) [
+        <!ELEMENT disfraces(disfraz+)>
+        <!ELEMENT disfraz (partes+)
+        <!ATTLIST disfraz codigo ID #REQUIRED>
+        <!ATTLIST disfraz nombre #REQUIRED>
+        <!ATTLIST disfraz genero (hombre | mujer | niño | niño) #REQUIRED>
+        <!ATTLIST disfraz precio NMTOKEN #REQUIRED>
+        <!ELEMENT complemento EMPTY>
+        <!ATTLIST complemento precio NMTOKEN #FIXED "5">
+        <!ATTLIST complemento nombre #REQUIRED>
+        <!ATTLIST partes>
+
+
+        ]>

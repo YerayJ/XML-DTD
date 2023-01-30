@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE BDsms SYSTEM "C:\Users\YJ\Documents\ProyectosIntelliJ\sms.xml\src\ejercicio1\libro.dtd">
+    <libro>
+        <parrafo>SITIO</parrafo>
+        <titulo>Messi</titulo>
+        <autor>Messi</autor>
+        <categoria>FURBO</categoria>
+    </libro>
+
+

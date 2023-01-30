@@ -1,0 +1,13 @@
+<!DOCTYPE barrio (aparcamiento) [
+        <!ELEMENT aparcamiento (vehiculo)>
+        <!ELEMENT vehiculo (fecha, matricula, hpago, hmax, sancion)>
+        <!ELEMENT fecha (#PCDATA)>
+        <!ELEMENT matricula (#PCDATA)>
+        <!ELEMENT hpago (#PCDATA)>
+        <!ELEMENT hmax (#PCDATA)>
+        <!ELEMENT sancion (hora, multa, foto)>
+        <!ELEMENT hora (#PCDATA)>
+        <!ELEMENT multa (#PCDATA)>
+        <!ELEMENT foto (#PCDATA)>
+
+        ]>

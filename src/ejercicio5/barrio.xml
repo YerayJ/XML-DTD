@@ -1,0 +1,17 @@
+
+<!DOCTYPE barrio (casa*) [
+        <!ELEMENT casa (direccion, numero, , guia)>
+        <!ELEMENT direccion (calle,numero)>
+        <!ELEMENT nacionalidad (#PCDATA)>
+        <!ELEMENT personas (#PCDATA)>
+        <!ELEMENT guia EMPTY>
+        ]>
+
+        <visita>
+        <grupo>
+        <fecha>..</fecha>
+        <nacionalidad>...</nacionalidad>
+        <personas>...</personas>
+        <guia></guia>
+        </grupo>
+        </visita>

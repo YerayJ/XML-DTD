@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE directorio (persona)+ [
+        <!ELEMENT persona (#PCDATA)>
+        <!ATTLIST persona nacionalidad CDATA "Española" sexo (Hombre | Mujer) #IMPLIED id ID #REQUIRED>
+        ]>
+
+        <directorio>
+        <persona nacionalidad="Francesa" id="A1234">Vivian Maret</persona>
+        <persona id="A789">Juan Martín</persona>
+        <persona sexo="Hombre" id="A12">Rafael Díaz</persona>
+        </directorio>

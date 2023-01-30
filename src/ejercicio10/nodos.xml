@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE mapa (Nodos, Direcciones) [
+
+<!ELEMENT Nodos (Nodo+)>
+<!ELEMENT Nodo (ID, Direcciones)>
+<!ELEMENT Direcciones (Direccion+)>
+<!ELEMENT Direccion (ID, Distancia)>
+<!ATTLIST Nodo ID ID #REQUIRED>
+<!ATTLIST Direccion ID IDREF #REQUIRED>
+<!ATTLIST Direccion Distancia CDATA #REQUIRED>
+]>
